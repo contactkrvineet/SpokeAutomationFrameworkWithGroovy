@@ -1,0 +1,4 @@
+rootProject.name = 'vineetkr.com_automationTestGroovyAndSpoke'
+include 'src:test'
+findProject(':src:test')?.name='test'
+include 'test'
